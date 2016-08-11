@@ -12,10 +12,16 @@
 		alert("Ouch!!!!");
 	}
 
+	function funky(x){ 
+		alert("I love " + x);
+	}
+	//funky("nothing");
 	//funky();
 	</script>
 	<form>
-	<input type="button" value= "Touch me"name="Submit" onclick="funky()">
+	<input type="button" value= "Touch me"name="submit" onclick="funky()">
+	<input type="button" value= "I love"name="reset" onclick="funky(34)">
+	<p> Bye</p>
 	</form>
 	</script>
 </body>
